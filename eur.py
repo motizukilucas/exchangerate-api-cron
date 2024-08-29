@@ -55,4 +55,3 @@ if response.status_code == 200:
 else:
     # If the response is not successful, print the status code
     print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
-
